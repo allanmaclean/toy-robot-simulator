@@ -14,7 +14,7 @@ git clone --recurse-submodules https://github.com/allanmaclean/toy-robot-simulat
 ## Running with Docker
 
 > [!NOTE]
-> Both the frontend and API are being running on dev servers with hot reload
+> Both the frontend and API will run on dev servers with hot reload
 
 1. Clone this repo
 2. Ensure you have Docker installed on your system
