@@ -23,5 +23,8 @@ git clone --recurse-submodules https://github.com/allanmaclean/toy-robot-simulat
 
 Note to myself:
 
+When working at the directory level of `toy-robot-simulator` locally, run:
+
 `FRONTEND_PATH=../trs-frontend API_PATH=../trs-api docker compose up --build`
+
 Changes will be reflected in real time
