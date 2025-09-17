@@ -1,0 +1,6 @@
+[submodule "trs-frontend"]
+	path = trs-frontend
+	url = https://github.com/allanmaclean/trs-frontend.git
+[submodule "trs-api"]
+	path = trs-api
+	url = https://github.com/allanmaclean/trs-api.git
