@@ -1,19 +1,19 @@
 services:
   frontend:
     build:
-      context: ./trs-frontend
+      context: ${FRONTEND_PATH:-./trs-frontend}
       dockerfile: Dockerfile.dev
     ports:
       - "4200:4200"
     volumes:
-      - ./trs-frontend:/app
+      - ${FRONTEND_PATH:-./trs-frontend}:/app
       - /app/node_modules
   api:
     build:
-      context: ./trs-api
+      context: ${API_PATH:-./trs-api}
       dockerfile: Dockerfile.dev
     ports:
       - "3000:3000"
     volumes:
-      - ./trs-api:/app
+      - ${API_PATH:-./trs-api}:/app
       - /app/node_modules

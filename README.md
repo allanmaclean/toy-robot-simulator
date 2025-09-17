@@ -13,11 +13,15 @@ git clone --recurse-submodules https://github.com/allanmaclean/toy-robot-simulat
 
 ## Running with Docker
 
-> [!NOTE]
-> Both the frontend and API will run on dev servers with hot reload
-
 1. Clone this repo
 2. Ensure you have Docker installed on your system
 3. Run `docker compose up --build`
 4. Frontend will be accessible via [http://localhost:4200/](http://localhost:4200/)
 5. Backend will be running on [http://localhost:3000/](http://localhost:3000/)
+
+## Running Locally with Hot Reload
+
+Note to myself:
+
+`FRONTEND_PATH=../trs-frontend API_PATH=../trs-api docker compose up --build`
+Changes will be reflected in real time
