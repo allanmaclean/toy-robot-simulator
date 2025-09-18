@@ -19,6 +19,11 @@ git clone --recurse-submodules https://github.com/allanmaclean/toy-robot-simulat
 4. Frontend will be accessible via [http://localhost:4200/](http://localhost:4200/)
 5. Backend will be running on [http://localhost:3000/](http://localhost:3000/)
 
+## Pulling Changes
+When changes are made to `trs-frontend` and `trs-api` you can pull those changes via:
+
+`git submodule update --remote`
+
 ## Running Locally with Hot Reload
 
 Note to myself:
